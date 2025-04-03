@@ -36,23 +36,53 @@ h1 {
 /* Insira o código abaixo */
 
 .container1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
     
 }
 
 .container2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
     
 }
 
 .container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
    
 }
 
 .container4 {
-    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 .container5 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     
 }
 .container-6 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
     
+}
+.container-exercicioB {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+
+
+}
+.container-desafio {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+
 }
